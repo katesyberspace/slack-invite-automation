@@ -23,24 +23,25 @@ margin: 0 auto;
 .main{
 max-width: 100%;
 width: 940px;
-float: left;
+display: flex;
+flex-direction: column;
 }
 
 .header, .content, .bottom, .sep2{
 width: 100%;
-float: left;
+/*float: left;*/
 }
 
 
 
 .header{
-	margin-top: 160px;
-	margin-bottom: 40px;
+	margin: 40px 0;
 }
 
 .logo{
 	margin: 0 auto;
 	padding-top: 20px;
+	display: flex;
 }
 
 h1{
@@ -97,7 +98,7 @@ margin-top: 20px;
 }
 
 .field{
-background: url(../images/field.png) repeat;
+background: lightgray;
 width: 448px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
 border: none;
